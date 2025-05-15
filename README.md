@@ -29,10 +29,14 @@ You need to install the following libraries:
  - numpy
  - matplotlib
  - seaborn
+ - plotly
+ - scikit-learn
+ - xgboost
+ - حمخفمغ
 
 Install them via pip:
 
-pip install pandas numpy matplotlib seaborn
+pip install pandas numpy matplotlib seaborn plotly scikit-learn xgboost
 
 If Jupyter Notebook is not installed:
 
