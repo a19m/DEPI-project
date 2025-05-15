@@ -1,53 +1,98 @@
-# DEPI-project
+# Telco Customer Churn – Data Analysis Project
 📘 Overview
 
-This project demonstrates a basic implementation of a feedforward neural network using PyTorch to classify a simple 2D dataset. 
-The notebook includes:
-- Dataset generation using make_moons
-- Neural network model definition
-- Training with backpropagation
-- Evaluation of accuracy and visualization of decision boundaries
+This project is a Jupyter Notebook-based exploratory data analysis (EDA) using the Telco Customer Churn dataset from Kaggle. The goal is to understand customer behavior and identify key factors associated with customer churn through visualization and statistical analysis.
 
-🧠 Project Structure
+The notebook performs:
 
-The notebook covers the following main steps:
+- Loading and preparing the Telco dataset
+- Cleaning missing or inconsistent data
+- Visualizing customer patterns and correlations with churn
+- Summarizing key statistics and findings
 
-1- Data Preparation
- - Synthetic data is generated using make_moons from sklearn.datasets.
- - The data is split into training and test sets.
+🛠️ Installation
 
-2- Model Definition
- - A simple neural network is defined using PyTorch's nn.Sequential.
+System Requirements
 
-3- Training Loop
- - The model is trained using a standard cross-entropy loss and stochastic gradient descent (SGD).
- - Training accuracy and loss are monitored over epochs.
+- Hardware:
+  - Minimum 4GB RAM (8GB+ recommended)
+  - Any modern processor
 
-4- Visualization
- - The decision boundary of the trained model is plotted.
- - Training history (loss and accuracy over epochs) is visualized.
+- Software:
+  - Python 3.7 or newer
+  - Jupyter Notebook or JupyterLab environment
 
-🛠️ Requirements
+Required Python Libraries
 
-To run this notebook, install the following dependencies:
-( pip install torch matplotlib scikit-learn numpy)
+You need to install the following libraries:
+ - pandas
+ - numpy
+ - matplotlib
+ - seaborn
 
-🚀 How to Run
+Install them via pip:
 
-1- Open the notebook in a Jupyter environment.
+pip install pandas numpy matplotlib seaborn
 
-2- Run all cells in sequence.
+If Jupyter Notebook is not installed:
 
-3- Observe the model training and decision boundary plots.
+pip install notebook
 
-📊 Results
+⚙️ Configuration Instructions
 
-The model is expected to achieve high classification accuracy on the simple binary dataset (make_moons), demonstrating the effectiveness of basic neural networks in non-linear classification tasks.
+1- Download the dataset from Kaggle:
+ - Link: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+ - File name: WA_Fn-UseC_-Telco-Customer-Churn.csv
 
-📁 Files
+2- Place the dataset in the same folder as your notebook or update the file path in the code.
 
-nb2.2.ipynb – Jupyter notebook containing code, training, and visualization.
+🚀 How to Run the Project
 
-🧾 License
+To run the notebook locally:
 
-This project is an open source project made by DEPI Students. Feel free to use and modify it for educational or personal purposes.
+1- Open your terminal or Anaconda prompt.
+
+2- Navigate to the folder where the notebook is located.
+
+3- Launch Jupyter Notebook:
+
+jupyter notebook
+
+4- Open nb2.2.ipynb in your browser.
+
+5- Run all cells in sequence to follow the analysis.
+
+📂 Files Included
+
+- nb2.2.ipynb: The main Jupyter Notebook containing the analysis
+- WA_Fn-UseC_-Telco-Customer-Churn.csv: The dataset used
+- README.txt: Project documentation (this file)
+
+📊 Dataset Information
+
+- Name: Telco Customer Churn
+- Source: IBM Sample Data via Kaggle
+- Link: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+- File Type: CSV
+- Size: Approximately 139 KB
+- Target Variable: Churn (Yes/No)
+
+🧾 API Documentation
+
+📦 Executables & Deployment
+
+📄 License
+
+This project is an open source project made by DEPI students. The dataset is publicly available on Kaggle and subject to its terms of use.
+
+🙌 Credits
+
+- Dataset: IBM Telco Customer Churn (via Kaggle)
+- Tools used: Python, pandas, numpy, matplotlib, seaborn
+- Developed as part of a data analysis learning project for DEPI by:
+  - Abdelrahman Elsayed
+  - Abdelrahman Mohamed
+  - Ahmed Mohamed
+  - Amr Khaled
+  - Kyrillos Nabil
+  - Ramy Kamel
