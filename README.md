@@ -82,41 +82,40 @@ jupyter notebook
 
 🧠 Machine Learning Model Development and Optimization
 
-Applied multiple classifiers:
+- Applied multiple classifiers:
 
-Logistic Regression
-Support Vector Machine (SVM)
-Random Forest
-XGBoost
-Used train_test_split with stratification for fair model training
+  - Logistic Regression
+  - Support Vector Machine (SVM)
+  - Random Forest
+  - XGBoost
 
-Performed hyperparameter tuning with GridSearchCV and cross-validation
+- Used train_test_split with stratification for fair model training
+- Performed hyperparameter tuning with GridSearchCV and cross-validation
+- Evaluated models using:
 
-Evaluated models using:
+  - Accuracy
+  - Recall
+  - F1-score
+  - ROC-AUC
 
-Accuracy
-Recall
-F1-score
-ROC-AUC
-Selected the best-performing model based on recall (to catch churners)
+- Selected the best-performing model based on recall (to catch churners)
 
 🚀 Model Deployment
 
-Serialized the trained model using pickle for reuse
+- Serialized the trained model using pickle for reuse
+- Ready for integration into:
 
-Ready for integration into:
+  - Web application (Flask/Streamlit)
+  - Business Intelligence Dashboard
 
-Web application (Flask/Streamlit)
-Business Intelligence Dashboard
-Can accept new customer data and return churn predictions
+- Can accept new customer data and return churn predictions
+- Example deployment steps (if Flask used):
 
-Example deployment steps (if Flask used):
+  1- Load model with pickle
 
-1- Load model with pickle
+  2- Create an API endpoint (/predict)
 
-2- Create an API endpoint (/predict)
-
-3- Accept JSON input and return prediction
+  3- Accept JSON input and return prediction
 
 📄 License
 
