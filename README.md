@@ -80,9 +80,43 @@ jupyter notebook
 - Size: Approximately 139 KB
 - Target Variable: Churn (Yes/No)
 
-🧾 API Documentation
+🧠 Machine Learning Model Development and Optimization
 
-📦 Executables & Deployment
+Applied multiple classifiers:
+
+Logistic Regression
+Support Vector Machine (SVM)
+Random Forest
+XGBoost
+Used train_test_split with stratification for fair model training
+
+Performed hyperparameter tuning with GridSearchCV and cross-validation
+
+Evaluated models using:
+
+Accuracy
+Recall
+F1-score
+ROC-AUC
+Selected the best-performing model based on recall (to catch churners)
+
+🚀 Model Deployment
+
+Serialized the trained model using pickle for reuse
+
+Ready for integration into:
+
+Web application (Flask/Streamlit)
+Business Intelligence Dashboard
+Can accept new customer data and return churn predictions
+
+Example deployment steps (if Flask used):
+
+1- Load model with pickle
+
+2- Create an API endpoint (/predict)
+
+3- Accept JSON input and return prediction
 
 📄 License
 
