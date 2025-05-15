@@ -32,9 +32,7 @@ You need to install the following libraries:
  - plotly
  - scikit-learn
  - xgboost
- - 
- - حمخفمغ
-
+   
 Install them via pip:
 
 pip install pandas numpy matplotlib seaborn plotly scikit-learn xgboost
